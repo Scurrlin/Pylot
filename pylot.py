@@ -1,9 +1,9 @@
 import json
 import spotipy
 import webbrowser
+import os
 from dotenv import load_dotenv
 load_dotenv()
-import os
 
 clientID = os.environ.get('SPOTIPY_CLIENT_ID')
 clientSecret = os.environ.get('SPOTIPY_CLIENT_SECRET')
